@@ -1,4 +1,3 @@
-local discordRPC = require("discordRPC")
 level = 1
 deaths = 0
 
