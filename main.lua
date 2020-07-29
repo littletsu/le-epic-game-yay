@@ -60,7 +60,6 @@ end
 function love.update(dt)
     --love.filesystem.load("main.lua")()
 
-    discordRPC.updatePresence(presence)
     world:update(dt)
     if alive then
         if love.keyboard.isDown("right") or love.keyboard.isDown("d") then
